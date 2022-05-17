@@ -1,0 +1,43 @@
+
+$theme-colors:(
+"primary" : hsl(218, 44%, 22%),
+"info": hsl(212, 45%, 89%)
+);
+$text-black-50: hsl(220, 15%, 55%);
+$border-radius:20px;
+$enable-rounded:20px;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import "node_modules/animate.css/animate.min.css";
+
+*{
+  font-family: 'Outfit', sans-serif;
+}
+.img-rounded{
+  border-radius: 20px;
+}
+.des-title{
+  font-size: 27px;
+
+}
+@media screen and (max-width: 768px){
+  .des-title{
+    font-size: 25px;
+
+  }
+ .des-p{
+    font-size: 21px ;
+  }
+}
+@media screen and (max-width: 420px) {
+  .des-title{
+    font-size: 20px;
+  }
+ .des-p{
+    font-size: 15px;
+  }
+}
+
